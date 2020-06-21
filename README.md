@@ -1,0 +1,2 @@
+# bitmex
+Bitmex bot
