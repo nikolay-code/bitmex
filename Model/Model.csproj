@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{92E6208A-E647-4375-80F3-989717C6838C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=8.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.8.0.0\lib\net461\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.6.2\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql, Version=4.0.7.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Npgsql.4.0.7\lib\net451\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TA-Lib-Core, Version=1.0.4998.21369, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\TA-Lib.0.5.0.3\lib\TA-Lib-Core.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Automapping\AutoMapperConfiguration.cs" />
+    <Compile Include="Automapping\InstrumentProfile.cs" />
+    <Compile Include="Automapping\Models\OrderBookModel.cs" />
+    <Compile Include="Automapping\Models\OrderHistoryModel.cs" />
+    <Compile Include="Automapping\Models\OrderUpdateModel.cs" />
+    <Compile Include="Automapping\Models\PositionUpdateModel.cs" />
+    <Compile Include="Automapping\OrderBookProfile.cs" />
+    <Compile Include="Automapping\OrderProfile.cs" />
+    <Compile Include="Automapping\PositionProfile.cs" />
+    <Compile Include="Background_worker.cs" />
+    <Compile Include="Candles\CandleExtensions.cs" />
+    <Compile Include="Candles\CandlesJSON.cs" />
+    <Compile Include="Candles\CandlesTA.cs" />
+    <Compile Include="Enums\Approximation.cs" />
+    <Compile Include="Enums\BinSizeEnum.cs" />
+    <Compile Include="Enums\CandleVariable.cs" />
+    <Compile Include="Enums\EnumExtensions.cs" />
+    <Compile Include="Enums\EnumExtensions_commLibrary.cs" />
+    <Compile Include="Enums\Period.cs" />
+    <Compile Include="Enums\SideEnum.cs" />
+    <Compile Include="Enums\SignalEnum.cs" />
+    <Compile Include="Enums\SplitSegmentsOptions.cs" />
+    <Compile Include="Indicators\Adx.cs" />
+    <Compile Include="Indicators\Atr.cs" />
+    <Compile Include="Indicators\AwesomeOscillator.cs" />
+    <Compile Include="Indicators\BaseIndicator.cs" />
+    <Compile Include="Indicators\Bbands.cs" />
+    <Compile Include="Indicators\BearBull.cs" />
+    <Compile Include="Indicators\CandlePatterns.cs" />
+    <Compile Include="Indicators\Cci.cs" />
+    <Compile Include="Indicators\Cmo.cs" />
+    <Compile Include="Indicators\DerivativeOscillator.cs" />
+    <Compile Include="Indicators\Ema.cs" />
+    <Compile Include="Indicators\Fisher.cs" />
+    <Compile Include="Indicators\HeikinAshi.cs" />
+    <Compile Include="Indicators\Ichimoku.cs" />
+    <Compile Include="Indicators\Macd.cs" />
+    <Compile Include="Indicators\Mama.cs" />
+    <Compile Include="Indicators\Mfi.cs" />
+    <Compile Include="Indicators\MinusDI.cs" />
+    <Compile Include="Indicators\Mom.cs" />
+    <Compile Include="Indicators\PivotHigh.cs" />
+    <Compile Include="Indicators\PivotLow.cs" />
+    <Compile Include="Indicators\PlusDI.cs" />
+    <Compile Include="Indicators\Rsi.cs" />
+    <Compile Include="Indicators\Sar.cs" />
+    <Compile Include="Indicators\Sma.cs" />
+    <Compile Include="Indicators\Stoch.cs" />
+    <Compile Include="Indicators\StochFast.cs" />
+    <Compile Include="Indicators\StochRsi.cs" />
+    <Compile Include="Indicators\TDSequential.cs" />
+    <Compile Include="Indicators\Tema.cs" />
+    <Compile Include="Indicators\Wma.cs" />
+    <Compile Include="Pine\Pine.cs" />
+    <Compile Include="Pine\PineBool.cs" />
+    <Compile Include="Pine\PineExtensions.cs" />
+    <Compile Include="Pine\PineNA.cs" />
+    <Compile Include="StateMachine.cs" />
+    <Compile Include="TradingAlgos.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TradingBackTester.cs" />
+    <Compile Include="TradingMainModule.cs" />
+    <Compile Include="TradingRobot.cs" />
+    <Compile Include="TradingSystem.cs" />
+    <Compile Include="TradingSystemAddons.cs" />
+    <Compile Include="TradingSystemResultTable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bitmex.NET\Bitmex.NET.csproj">
+      <Project>{8b0e3f5b-15ab-4bef-8130-08c503d0c91e}</Project>
+      <Name>Bitmex.NET</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Accounts>
+       <Account>
+        <APIKey>jQa3CgY7Nj3BOh1lgKWXEOnh</APIKey>
+        <APISecret>dNmCba8c9Lj7Tgv8DzbOOIbcP7RBhI028jndU7bM5CWkI_t-</APISecret>
+        <Type>additional</Type>
+        <IsReal>true</IsReal>
+        <Size>100</Size>
+        <Leverage>5</Leverage>
+      </Account> 		
+    <Account>
+			<APIKey>XEIlihEDI86Dyy4Q4w0l3AMU</APIKey>
+			<APISecret>INv8TWChqD650GM6-BeAGwewe9WIHkxQAF7nhNpeStwfz5Gi</APISecret>
+			<Type>additional</Type>
+			<IsReal>true</IsReal>
+			<Size>100</Size>
+			<Leverage>5</Leverage>
+		</Account>	
+    <Account>
+			<APIKey>oAQ9L2Ndl0A9TnuAvY094zHt</APIKey>
+			<APISecret>eRTBCC_uqWWmfrQhxB4dyWBbJvedTc4s6crXJ2LReru_hV6A</APISecret>
+			<Type>additional</Type>
+			<IsReal>true</IsReal>
+			<Size>100</Size>
+			<Leverage>5</Leverage>
+		</Account>
+    </Accounts>
+</Configuration>

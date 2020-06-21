@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Bitmex.NET</id>
+    <version>2.0.1</version>
+    <authors>Vladimir Semashkin</authors>
+    <owners>Vladimir Semashkin</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/semashkinvg/Bitmex.NET/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/semashkinvg/Bitmex.NET</projectUrl>
+    <iconUrl>https://github.com/semashkinvg/Bitmex.NET/blob/master/default.png</iconUrl>
+    <description>Wrapper for BitMEX.com API (REST &amp; WebSocket)</description>
+    <releaseNotes>See release notes here https://github.com/semashkinvg/Bitmex.NET/blob/master/releasenotes.md</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>BitMEX REST API WebSocket Cryptocurrency ExchangeApi CSharp StockApi Trades Quotes Wrapper Position Instrument CurrencyPair</tags>
+    <repository url="https://github.com/semashkinvg/Bitmex.NET/" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
+        <dependency id="WebSocket4Net" version="0.15.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Net" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\Users\user\Documents\Bitmex.NETfor3min_v3\Bitmex.NETfor3min_v3\Bitmex.NETfor3min_v3\Bitmex.NETfor3min_v1\Bitmex.NET\bin\Debug\net45\Bitmex.NET.dll" target="lib\net45\Bitmex.NET.dll" />
+  </files>
+</package>

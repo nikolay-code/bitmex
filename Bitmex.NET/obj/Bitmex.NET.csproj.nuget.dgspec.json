@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\extention\\iptables\\windows\\Documents\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v1\\Bitmex.NET\\Bitmex.NET.csproj": {}
+  },
+  "projects": {
+    "E:\\extention\\iptables\\windows\\Documents\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v1\\Bitmex.NET\\Bitmex.NET.csproj": {
+      "version": "2.0.1",
+      "restore": {
+        "projectUniqueName": "E:\\extention\\iptables\\windows\\Documents\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v1\\Bitmex.NET\\Bitmex.NET.csproj",
+        "projectName": "Bitmex.NET",
+        "projectPath": "E:\\extention\\iptables\\windows\\Documents\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v1\\Bitmex.NET\\Bitmex.NET.csproj",
+        "packagesPath": "C:\\Users\\tramal\\.nuget\\packages\\",
+        "outputPath": "E:\\extention\\iptables\\windows\\Documents\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v1\\Bitmex.NET\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\tramal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "dependencies": {
+            "LibLog": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "WebSocket4Net": {
+              "target": "Package",
+              "version": "[0.15.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5": {
+      "LibLog/5.0.6": {
+        "type": "package",
+        "contentFiles": {
+          "contentFiles/cs/net45/ILog.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "ILog.cs"
+          },
+          "contentFiles/cs/net45/ILogProvider.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "ILogProvider.cs"
+          },
+          "contentFiles/cs/net45/LogExtensions.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogExtensions.cs"
+          },
+          "contentFiles/cs/net45/LogLevel.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogLevel.cs"
+          },
+          "contentFiles/cs/net45/LogProvider.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProvider.cs"
+          },
+          "contentFiles/cs/net45/LogProviders/DisposableAction.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/DisposableAction.cs"
+          },
+          "contentFiles/cs/net45/LogProviders/LibLogException.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/LibLogException.cs"
+          },
+          "contentFiles/cs/net45/LogProviders/Log4NetLogProvider.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/Log4NetLogProvider.cs"
+          },
+          "contentFiles/cs/net45/LogProviders/LogMessageFormatter.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/LogMessageFormatter.cs"
+          },
+          "contentFiles/cs/net45/LogProviders/LogProviderBase.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/LogProviderBase.cs"
+          },
+          "contentFiles/cs/net45/LogProviders/LoupeLogProvidercs.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/LoupeLogProvidercs.cs"
+          },
+          "contentFiles/cs/net45/LogProviders/NLogLogProvider.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/NLogLogProvider.cs"
+          },
+          "contentFiles/cs/net45/LogProviders/SerilogLogProvider.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/SerilogLogProvider.cs"
+          },
+          "contentFiles/cs/net45/LogProviders/TraceEventTypeValues.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/TraceEventTypeValues.cs"
+          },
+          "contentFiles/cs/net45/LogProviders/TypeExtensions.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LogProviders/TypeExtensions.cs"
+          },
+          "contentFiles/cs/net45/LoggerDelegate.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LoggerDelegate.cs"
+          },
+          "contentFiles/cs/net45/LoggerExecutionWrapper.cs.pp": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false,
+            "ppOutputPath": "LoggerExecutionWrapper.cs"
+          }
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "SuperSocket.ClientEngine.Core/0.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SuperSocket.ClientEngine.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SuperSocket.ClientEngine.dll": {}
+        }
+      },
+      "WebSocket4Net/0.15.2": {
+        "type": "package",
+        "dependencies": {
+          "SuperSocket.ClientEngine.Core": "0.10.0"
+        },
+        "compile": {
+          "lib/net45/WebSocket4Net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebSocket4Net.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibLog/5.0.6": {
+      "sha512": "ifQWvBuXDG10AE1P6m5qLRqSdIGFIQoZJFUPS0p9v/YRXOJ+8qmFRgacSRLMpTk11KqmC5IkSNic8g+vg6Psbw==",
+      "type": "package",
+      "path": "liblog/5.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "contentFiles/cs/net45/ILog.cs.pp",
+        "contentFiles/cs/net45/ILogProvider.cs.pp",
+        "contentFiles/cs/net45/LogExtensions.cs.pp",
+        "contentFiles/cs/net45/LogLevel.cs.pp",
+        "contentFiles/cs/net45/LogProvider.cs.pp",
+        "contentFiles/cs/net45/LogProviders/DisposableAction.cs.pp",
+        "contentFiles/cs/net45/LogProviders/LibLogException.cs.pp",
+        "contentFiles/cs/net45/LogProviders/Log4NetLogProvider.cs.pp",
+        "contentFiles/cs/net45/LogProviders/LogMessageFormatter.cs.pp",
+        "contentFiles/cs/net45/LogProviders/LogProviderBase.cs.pp",
+        "contentFiles/cs/net45/LogProviders/LoupeLogProvidercs.cs.pp",
+        "contentFiles/cs/net45/LogProviders/NLogLogProvider.cs.pp",
+        "contentFiles/cs/net45/LogProviders/SerilogLogProvider.cs.pp",
+        "contentFiles/cs/net45/LogProviders/TraceEventTypeValues.cs.pp",
+        "contentFiles/cs/net45/LogProviders/TypeExtensions.cs.pp",
+        "contentFiles/cs/net45/LoggerDelegate.cs.pp",
+        "contentFiles/cs/net45/LoggerExecutionWrapper.cs.pp",
+        "contentFiles/cs/netstandard2.0/ILog.cs.pp",
+        "contentFiles/cs/netstandard2.0/ILogProvider.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogExtensions.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogLevel.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProvider.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/DisposableAction.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/LibLogException.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/Log4NetLogProvider.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/LogMessageFormatter.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/LogProviderBase.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/LoupeLogProvidercs.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/NLogLogProvider.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/SerilogLogProvider.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/TraceEventTypeValues.cs.pp",
+        "contentFiles/cs/netstandard2.0/LogProviders/TypeExtensions.cs.pp",
+        "contentFiles/cs/netstandard2.0/LoggerDelegate.cs.pp",
+        "contentFiles/cs/netstandard2.0/LoggerExecutionWrapper.cs.pp",
+        "liblog.5.0.6.nupkg.sha512",
+        "liblog.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "SuperSocket.ClientEngine.Core/0.10.0": {
+      "sha512": "1jkmODECz0/6jgKTDUFDkBxiLJJq0ROapAkcu6KfLBJUJl+jK6pvZbS2QtZ6QbeljpgESeFaiA17Ng4GCz8XjA==",
+      "type": "package",
+      "path": "supersocket.clientengine.core/0.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/SuperSocket.ClientEngine.dll",
+        "lib/net35-client/SuperSocket.ClientEngine.dll",
+        "lib/net40-client/SuperSocket.ClientEngine.dll",
+        "lib/net45/SuperSocket.ClientEngine.dll",
+        "lib/netstandard1.3/SuperSocket.ClientEngine.dll",
+        "lib/sl50/SuperSocket.ClientEngine.dll",
+        "supersocket.clientengine.core.0.10.0.nupkg.sha512",
+        "supersocket.clientengine.core.nuspec"
+      ]
+    },
+    "WebSocket4Net/0.15.2": {
+      "sha512": "xu6NiIDP6BEwO8cgXLUdWI8teB/TxVjzMjMYE7hcP93+MpZdxzDzz1cTFxU4OWVP0NESchcQO5LkiJ/wgB03AQ==",
+      "type": "package",
+      "path": "websocket4net/0.15.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/WebSocket4Net.dll",
+        "lib/net35/WebSocket4Net.dll",
+        "lib/net40/WebSocket4Net.dll",
+        "lib/net45/WebSocket4Net.dll",
+        "lib/netstandard1.3/WebSocket4Net.dll",
+        "websocket4net.0.15.2.nupkg.sha512",
+        "websocket4net.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5": [
+      "LibLog >= 5.0.6",
+      "Newtonsoft.Json >= 11.0.2",
+      "WebSocket4Net >= 0.15.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "2.0.1",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\user\\Documents\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v1\\Bitmex.NET\\Bitmex.NET.csproj",
+      "projectName": "Bitmex.NET",
+      "projectPath": "C:\\Users\\user\\Documents\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v1\\Bitmex.NET\\Bitmex.NET.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Documents\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v3\\Bitmex.NETfor3min_v1\\Bitmex.NET\\obj\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net45"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net45": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net45": {
+        "dependencies": {
+          "LibLog": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[5.0.6, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[11.0.2, )"
+          },
+          "WebSocket4Net": {
+            "target": "Package",
+            "version": "[0.15.2, )"
+          }
+        }
+      }
+    }
+  }
+}

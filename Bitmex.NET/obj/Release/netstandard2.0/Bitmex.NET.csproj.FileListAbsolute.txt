@@ -1,0 +1,9 @@
+C:\Users\nikolay\Documents\Bitmex.NET-master_1204\Bitmex.NET_v5\Bitmex.NET\bin\Release\netstandard2.0\Bitmex.NET.deps.json
+C:\Users\nikolay\Documents\Bitmex.NET-master_1204\Bitmex.NET_v5\Bitmex.NET\bin\Release\netstandard2.0\Bitmex.NET.dll
+C:\Users\nikolay\Documents\Bitmex.NET-master_1204\Bitmex.NET_v5\Bitmex.NET\bin\Release\netstandard2.0\Bitmex.NET.pdb
+C:\Users\nikolay\Documents\Bitmex.NET-master_1204\Bitmex.NET_v5\Bitmex.NET\obj\Release\netstandard2.0\Bitmex.NET.csprojAssemblyReference.cache
+C:\Users\nikolay\Documents\Bitmex.NET-master_1204\Bitmex.NET_v5\Bitmex.NET\obj\Release\netstandard2.0\Bitmex.NET.csproj.CoreCompileInputs.cache
+C:\Users\nikolay\Documents\Bitmex.NET-master_1204\Bitmex.NET_v5\Bitmex.NET\obj\Release\netstandard2.0\Bitmex.NET.AssemblyInfoInputs.cache
+C:\Users\nikolay\Documents\Bitmex.NET-master_1204\Bitmex.NET_v5\Bitmex.NET\obj\Release\netstandard2.0\Bitmex.NET.AssemblyInfo.cs
+C:\Users\nikolay\Documents\Bitmex.NET-master_1204\Bitmex.NET_v5\Bitmex.NET\obj\Release\netstandard2.0\Bitmex.NET.dll
+C:\Users\nikolay\Documents\Bitmex.NET-master_1204\Bitmex.NET_v5\Bitmex.NET\obj\Release\netstandard2.0\Bitmex.NET.pdb
